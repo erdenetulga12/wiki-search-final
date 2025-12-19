@@ -1,3 +1,5 @@
+package com.allendowney.javacs;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;

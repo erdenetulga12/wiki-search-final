@@ -1,7 +1,4 @@
-/**
- * 
- */
-
+package com.allendowney.javacs;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
