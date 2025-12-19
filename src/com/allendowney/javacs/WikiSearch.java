@@ -130,7 +130,7 @@ public class WikiSearch {
 		Collections.sort(entries, new Comparator<Entry<String, Integer>>() {
 			@Override
 			public int compare(Entry<String, Integer> e1, Entry<String, Integer> e2) {
-				return e2.getValue().compareTo(e1.getValue());
+				return e1.getValue().compareTo(e2.getValue());
 			}
 		});
 		return entries;
