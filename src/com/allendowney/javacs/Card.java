@@ -12,14 +12,16 @@ import java.util.List;
  */
 public class Card implements Comparable<Card> {
 
-	// string representations of ranks
+    // string representations of ranks
     public static final String[] RANKS = {
         null, "Ace", "2", "3", "4", "5", "6", "7",
-        "8", "9", "10", "Jack", "Queen", "King"};
+        "8", "9", "10", "Jack", "Queen", "King"
+    };
 
     // string representations of suits
     public static final String[] SUITS = {
-        "Clubs", "Diamonds", "Hearts", "Spades"};
+        "Clubs", "Diamonds", "Hearts", "Spades"
+    };
 
     // rank and suit are instance variables
     private final int rank;
@@ -81,7 +83,7 @@ public class Card implements Comparable<Card> {
      */
     public boolean equals(Card that) {
         return this.rank == that.rank
-            && this.suit == that.suit;
+               && this.suit == that.suit;
     }
 
     /**
@@ -103,7 +105,7 @@ public class Card implements Comparable<Card> {
      */
     public static void main(String[] args) {
 
-    	// sort the cards using the natural ordering
+        // sort the cards using the natural ordering
         List<Card> cards = makeDeck();
         Collections.sort(cards);
         System.out.println(cards.get(0));
@@ -112,7 +114,7 @@ public class Card implements Comparable<Card> {
         Comparator<Card> comparator = new Comparator<Card>() {
             @Override
             public int compare(Card card1, Card card2) {
-            	if (card1.getSuit() < card2.getSuit()) {
+                if (card1.getSuit() < card2.getSuit()) {
                     return -1;
                 }
                 if (card1.getSuit() > card2.getSuit()) {
@@ -130,18 +132,18 @@ public class Card implements Comparable<Card> {
                 return 0;
             }
 
-			private int getRankAceHigh(Card card) {
-				int rank = card.getRank();
-				if (rank == 1) {
-					return 14;
-				} else {
-					return rank;
-				}
-			}
+            private int getRankAceHigh(Card card) {
+                int rank = card.getRank();
+                if (rank == 1) {
+                    return 14;
+                } else {
+                    return rank;
+                }
+            }
         };
 
         // sort the cards using an external comparator
-		Collections.sort(cards, comparator);
+        Collections.sort(cards, comparator);
         System.out.println(cards.get(0));
         System.out.println(cards.get(51));
     }
