@@ -60,8 +60,16 @@ public class WikiSearch {
 	 * @return New WikiSearch object.
 	 */
 	public WikiSearch or(WikiSearch that) {
-		// TODO: FILL THIS IN!
-		return null;
+		Map<String, Integer> orMap = new HashMap<String, Integer>(this.map);
+		for (Entry<String, Integer> entry: that.map.entrySet()) {
+			String url = entry.getKey();
+			Integer relevance = entry.getValue();
+			if (orMap.containsKey(url)) {
+				relevance = totalRelevance(orMap.get(url), relevance);
+			}
+			orMap.put(url, relevance);
+		}
+		return new WikiSearch(orMap);
 	}
 
 	/**
@@ -71,8 +79,16 @@ public class WikiSearch {
 	 * @return New WikiSearch object.
 	 */
 	public WikiSearch and(WikiSearch that) {
-		// TODO: FILL THIS IN!
-		return null;
+		Map<String, Integer> andMap = new HashMap<String, Integer>();
+		for (Entry<String, Integer> entry: this.map.entrySet()) {
+			String url = entry.getKey();
+			Integer relevance = entry.getValue();
+			if (that.map.containsKey(url)) {
+				relevance = totalRelevance(relevance, that.map.get(url));
+				andMap.put(url, relevance);
+			}
+		}
+		return new WikiSearch(andMap);
 	}
 
 	/**
@@ -82,8 +98,14 @@ public class WikiSearch {
 	 * @return New WikiSearch object.
 	 */
 	public WikiSearch minus(WikiSearch that) {
-		// TODO: FILL THIS IN!
-		return null;
+		Map<String, Integer> minusMap = new HashMap<String, Integer>(this.map);
+		for (Entry<String, Integer> entry: that.map.entrySet()) {
+			String url = entry.getKey();
+			if (minusMap.containsKey(url)) {
+				minusMap.remove(url);
+			}
+		}
+		return new WikiSearch(minusMap);
 	}
 
 	/**
@@ -104,8 +126,14 @@ public class WikiSearch {
 	 * @return List of entries with URL and relevance.
 	 */
 	public List<Entry<String, Integer>> sort() {
-		// TODO: FILL THIS IN!
-		return null;
+		List<Entry<String, Integer>> entries = new LinkedList<Entry<String, Integer>>(map.entrySet());
+		Collections.sort(entries, new Comparator<Entry<String, Integer>>() {
+			@Override
+			public int compare(Entry<String, Integer> e1, Entry<String, Integer> e2) {
+				return e2.getValue().compareTo(e1.getValue());
+			}
+		});
+		return entries;
 	}
 
 
