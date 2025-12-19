@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-J4K6MPK" name="com.allendowney.javacs.WikiSearchTest" skipped="0" tests="1" time="0.0" timestamp="2025-12-19T05:07:26">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-J4K6MPK" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 11" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="env.COMPUTERNAME" value="DESKTOP-J4K6MPK" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.10.15\bin\.." />
+    <property name="java.runtime.version" value="25+37-LTS-3491" />
+    <property name="env.HOMEPATH" value="\Users\Erdenetulga" />
+    <property name="user.name" value="Erdenetulga" />
+    <property name="env.VSCODE_NONCE" value="d0a5c87a-3a13-4771-aac1-66697821e70c" />
+    <property name="stdout.encoding" value="Cp1252" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin" />
+    <property name="env.VSCODE_GIT_ASKPASS_MAIN" value="c:\Users\Erdenetulga\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="java.version" value="25" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 12, GenuineIntel" />
+    <property name="env.TEMP" value="C:\Users\ERDENE~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.VSCODE_INJECTION" value="1" />
+    <property name="env._JAVACMD" value="java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="env.IGCCSVC_DB" value="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA/sXKC5fpz0yprI/HhCHMAwQAAAACAAAAAAAQZgAAAAEAACAAAAChzTmBAZvsW/KHU7J2MCJxdv/IquUoaFoPxvH+ViHaTQAAAAAOgAAAAAIAACAAAAB61BXq40ggUVefbFbzGQjLqmPzirI6ZN1Wps4PYCIhDmAAAAB+OhxbDfbt1HbTpBHNf2pg4OBcGMrYkpv/i9+5/ScQo34HH3m7KRVdnkaLDQaZRTxWkLyZHEUk73yPZRBQz0YXnGvPjtlbnJbqDvbjovTiZ06hun8GdGqEWguyiM/faklAAAAAd5OibWNq6bGrY2N75L4azWeEJNO9cvMHpXQM16VUhDmZGLJ0fGAUKQgoEp9aA9+TjT/Y/RYLKIzoVmSmjeqTkg==" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="69.0" />
+    <property name="env.VSCODE_GIT_ASKPASS_EXTRA_ARGS" value="" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.JavaCS" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\build.xml" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-25" />
+    <property name="env.PSModulePath" value="C:\Users\Erdenetulga\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.APPDATA" value="C:\Users\Erdenetulga\AppData\Roaming" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\build.xml" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.TERM_PROGRAM_VERSION" value="1.107.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25+37-LTS-3491" />
+    <property name="env.ZES_ENABLE_SYSMAN" value="1" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Erdenetulga" />
+    <property name="env.VSCODE_GIT_IPC_HANDLE" value="\\.\pipe\vscode-git-dd30de15d5-sock" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.10.15\lib" />
+    <property name="stderr.encoding" value="Cp1252" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.TMP" value="C:\Users\ERDENE~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="env.CHROME_CRASHPAD_PIPE_NAME" value="\\.\pipe\crashpad_28284_LPPSTSYVXLPRWDHW" />
+    <property name="user.script" value="" />
+    <property name="target" value="8" />
+    <property name="user.home" value="C:\Users\Erdenetulga" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.version.date" value="2025-09-16" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="vscode" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\Erdenetulga\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Erdenetulga\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\apache-ant-1.10.15\bin;C:\Users\Erdenetulga\AppData\Local\Microsoft\WindowsApps;C:\Users\Erdenetulga\AppData\Local\Programs\Microsoft VS Code\bin;." />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="stdin.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\bin;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\jedis-2.8.0.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\jsoup-1.8.3.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\junit-4.12.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\hamcrest-core-1.3.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\jcommon-1.0.23.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\jfreechart-1.0.19.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\servlet.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\ant-junit.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\commons-math3-3.6.jar;C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\lib\hamcrest-library-1.3.jar;C:\apache-ant-1.10.15\lib\ant-launcher.jar;C:\apache-ant-1.10.15\lib\ant.jar;C:\apache-ant-1.10.15\lib\ant-junit.jar;C:\apache-ant-1.10.15\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.allendowney.javacs.WikiSearchTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\junit\TEST-com.allendowney.javacs.WikiSearchTest.xml crashfile=C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\junitvmwatcher11489217250477846187.properties propsfile=C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final\junit11038969414848992290.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.15 compiled on August 25 2024" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.GIT_ASKPASS" value="c:\Users\Erdenetulga\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="env.VSCODE_GIT_ASKPASS_NODE" value="C:\Users\Erdenetulga\AppData\Local\Programs\Microsoft VS Code\Code.exe" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\DESKTOP-J4K6MPK" />
+    <property name="java.vm.specification.version" value="25" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="env.OneDrive" value="C:\Users\Erdenetulga\OneDrive" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:\apache-ant-1.10.15\bin\.." />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.PROCESSOR_REVISION" value="8e0c" />
+    <property name="java.io.tmpdir" value="C:\Users\ERDENE~1\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="env.OneDriveConsumer" value="C:\Users\Erdenetulga\OneDrive" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" WikiSearchTest" />
+    <property name="env.VSCODE_A11Y_MODE" value="0" />
+    <property name="user.dir" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Erdenetulga\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL" />
+    <property name="env.COLORTERM" value="truecolor" />
+    <property name="env.Path" value="c:\Users\Erdenetulga\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Erdenetulga\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\apache-ant-1.10.15\bin;C:\Users\Erdenetulga\AppData\Local\Microsoft\WindowsApps;C:\Users\Erdenetulga\AppData\Local\Programs\Microsoft VS Code\bin" />
+    <property name="basedir" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final" />
+    <property name="env.VSCODE_STABLE" value="1" />
+    <property name="ant.java.version" value="25" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.10.15\lib\ant.jar" />
+    <property name="env.USERNAME" value="Erdenetulga" />
+    <property name="source" value="8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.USERDOMAIN" value="DESKTOP-J4K6MPK" />
+    <property name="java.specification.version" value="25" />
+    <property name="env.=C:" value="C:\Users\Erdenetulga\CSUDH Dropbox\Erdenetulga Bilegdemberel\CSC311-04\wiki-search-final" />
+    <property name="ant.project.invoked-targets" value="WikiSearchTest" />
+    <property name="env.EFC_24968_1592913036" value="1" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <error message="com.allendowney.javacs.WikiSearchTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.allendowney.javacs.WikiSearchTest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
